@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: white;
+    width: 100%;
+    
+}
+.Calculator{
+    margin: 30px 20px;
+    text-align: center;
+}
+
+th {
+    width: 350px;
+    height: 100px;
+    background-color: #bfbfbf;
+    text-align: right;
+    padding-right: 20px;
+    margin-bottom: 10px;
+    
+}
+td{
+    color: black;
+    margin: 10px 0px;
+    background-color: #bfbfbf;
+    text-align: center;
+    width: 50px;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 10px;
+    
+
+}
+#Display{
+    border-radius: 7px 7px 0px 0px;
+    font-size: 25px;
+    
+}
+#Zero{
+    border-radius: 0px 0px 0px 7px;
+}
+#Equal{
+    border-radius: 0px 0px 7px 0px;
+}
