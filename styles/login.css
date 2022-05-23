@@ -1,0 +1,57 @@
+body{
+    background-color: blue;
+    display: flex;
+}
+.loginbox{
+    width: 350px;
+    height: 450px;
+    background: white;
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+}
+h1 {
+    text-align: center;
+    color: blue
+}
+
+.form-group {
+    font-size: 20px;
+    color: blue;
+    margin-left: 15px;
+   
+       
+}
+.form-control {
+    width: 90%;
+    padding-left: 10px;
+    font-size: 15px;
+    margin-top: 15px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+.check-box {
+     margin: 20px 0px 20px 0px;
+}
+span {
+    font-size: 15px;
+    margin-left: 5px;
+}
+button {
+    width: 80%;
+    border-radius: 5px;
+    background-color: transparent;
+    height: 28px;
+    border: 1px solid blaCK;
+    margin-bottom: 20px;
+}
+button:hover{
+    background-color: dodgerblue;
+}
+a {
+  color: black;
+   
+}

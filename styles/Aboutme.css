@@ -1,0 +1,200 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+.header{
+    display: flex;
+    margin: 0;
+    padding: 10px 45px;
+    justify-content: space-between;
+    color: white;
+    background-color: black;
+    
+}
+.nav {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+    margin-left: 30px;
+}
+.nav a:hover {
+    color: rgb(71, 255, 111);
+    transform: rotate(6deg);
+    transition: all 0.5s ease-out;
+    display: flex;
+   
+}
+input[type='checkbox']{
+    display: none;
+}
+.toggle-button{
+    display: none;
+    font-size: 24px;
+    user-select: none;
+}
+.Section1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0px;
+}
+span{
+    color: orangered;
+}
+.Aboutme{
+    color: white;
+    line-height:30px;
+}
+.Aboutme h4 {
+    margin-bottom: 10px;
+}
+.Aboutme h1 {
+    margin-bottom: 10px;
+}
+.Aboutme p {
+    margin-bottom: 10px;
+}
+img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin: 30px;
+    
+}
+.Section2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.Section2-item{
+    width: 350px;
+    height: 180px;
+    background-color: white;
+    border-radius: 7px;
+    padding: 20px;
+}
+@media(max-width: 768px){
+    .header {
+        position: relative;
+    }
+    .nav  {
+        position: absolute;
+        background: blue;
+        height: 100vh;
+        width: 100%;
+        top: 80px;
+        left: -100%;
+        transition: all .5s;
+        display: block;
+        text-align: center;
+        
+    }
+    .nav li {
+        margin: 50px 0px;
+        
+    }
+    .nav li a {
+        font-size: 20px;
+    }
+    
+    .toggle-button{
+        display: flex;
+        justify-content: end;
+        
+    }
+    input[type='checkbox']:checked ~ .menu{
+        display: block;
+        transition: 2s ease;
+    }
+    .Section1{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .Aboutme{
+        font-size: 13px;
+        text-align: center;
+    }
+    .Aboutme h4{
+        font-size: 17px;
+    }
+    .Section2{
+        flex-direction: column;
+        
+    }
+    .Section2-item{
+        margin: 10px 0px;
+    }
+    .contact-section{
+        margin: 0px;
+        
+    }
+} 
+.Container{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 80px 0px;
+   
+}
+.Contact-Page{
+    background-color: rgb(77, 74, 74);
+    width: 500px;
+    height: 350px;
+}
+.Contact-Page h1{
+    text-align: center;
+    margin: 20px 0px;
+}
+.Contact-Page label {
+    font-size: 18px;
+    margin-left: 10px;
+}
+.Contact-Page input[type="text"]{
+    width: 400px;
+    height: 30px;
+    border-radius: 7px;
+    margin-bottom: 10px;
+   padding-left: 20px;
+}
+.text-area{
+    margin-left: 65px;
+    width: 400px;
+    height: 120px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+#priority{
+    width: 390px;
+    height: 30px;
+    border-radius: 7px;
+}
+input[type="submit"]{
+    width: 200px;
+    height: 30px;
+    border-radius: 7px;
+    font-size: 15px;
+    margin-left: 70px;
+    color: white;
+    background-color: black;
+    margin-top: 10px;
+    
+}
+footer{
+    color: white;
+    text-align: center;
+    font-size: 15px;
+}
+

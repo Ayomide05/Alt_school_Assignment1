@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(32, 32, 32);
+}
+.Register-box {
+    width: 700px;
+    height: 650px;
+    background-color: white;
+    border: 1px solid black;
+    position: absolute;
+    left: 20%;
+    transform: translate(-50% -50% );
+    border-radius: 5px;
+    overflow: hidden;
+    top: 2%;  
+    
+    
+}
+.Form-group{
+   margin: 0px 40px;
+    
+}
+h1{
+    text-align: center;
+    color: aquamarine;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+input[type="text"]{
+    width: 600px;
+    height: 25px;
+    border-radius: 7px;
+    margin-bottom: 10px;
+   padding-left: 20px;
+}
+.Drop-down{
+    width: 600px;
+    height: 25px;
+    border-radius: 7px;
+    margin-bottom: 20px;
+   
+}
+.Form-group label {
+    font-size: 20px;
+}
+input[type="submit"]{
+    width: 300px;
+    height: 30px;
+    border-radius: 7px;
+    font-size: 18px;
+    background-color: aquamarine;
+    border: 1px solid aquamarine;
+}
+input[type="password"]{
+    width: 600px;
+    height: 25px;
+    border-radius: 7px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    
+}
+@media(max-width:767px){
+    .Register-box {
+        left: 5%;
+        width: 520px;
+        
+    }
+    .Form-group{
+      margin: 0px 10px; 
+    } 
+    input[type="text"]{
+      width: 480px;
+    } 
+    .Drop-down{
+        width: 480px;
+        
+    }
+    input[type="password"]{
+        width: 480px;
+        
+    }    
+}
